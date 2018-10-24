@@ -19,7 +19,7 @@
 ```
 	dependencies {
 		...
-		implementation 'com.github.renosyah:CustomDatePicker:v0.1'
+		implementation 'com.github.renosyah:CustomDatePicker:v0.5'
 	
 	}
 
