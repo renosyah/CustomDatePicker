@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/TextArrowLeft"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Back"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/TexViewMonthNameWithYear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="January 2019"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/TextArrowRight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Next"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <GridView
+            android:layout_margin="5dp"
+            android:id="@+id/GridviewDay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="false"
+            android:columnWidth="60dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="5dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
