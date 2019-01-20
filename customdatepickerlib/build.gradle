@@ -28,7 +28,7 @@ dependencies {
 
 ext {
     bintrayRepo = 'CustomDatePicker'
-    bintrayName = 'CustomDatePicker'
+    bintrayName = 'customdatepickerlib'
 
     publishedGroupId = 'com.github.renosyah'
     libraryName = 'customdatepickerlib'
@@ -37,7 +37,7 @@ ext {
 
     siteUrl = 'https://github.com/renosyah/CustomDatePicker'
     gitUrl = 'https://github.com/renosyah/CustomDatePicker.git'
-    githubRepository= 'https://github.com/renosyah/CustomDatePicker'
+    githubRepository= 'renosyah/CustomDatePicker'
 
     libraryVersion = '0.6'
 
